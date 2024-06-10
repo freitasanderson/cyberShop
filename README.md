@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.
 
-[![Design Base](https://cdn.dribbble.com/users/1710083/screenshots/19407628/media/8b37783ccbaa12408b61dffe33514e0f.jpg)]
+![Design Base](https://cdn.dribbble.com/users/1710083/screenshots/19407628/media/8b37783ccbaa12408b61dffe33514e0f.jpg)
 
 ## Development server
 
