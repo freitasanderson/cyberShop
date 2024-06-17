@@ -1,7 +1,51 @@
+*{
+    font-family: "Prompt", sans-serif;
+    color: #ffffff;
+}
 html{
-    background-image: url('assets/background.webp');
-    background-size: auto;
+    background-image: url('assets/background.svg');
+    background-color: #04001c;
+    background-size: cover;
 }
 header img{
-    filter: drop-shadow(1px 1px 2px #ffffff);
+    filter: drop-shadow(1px 1px 1px #ffffff);
+}
+body{
+    margin: 0;
+}
+header{
+    width: 100vw;
+    background-color: #ffffff12;
+    div{
+        width: 75vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    display: flex;
+    justify-content: center;
+}
+.ul-control{
+    list-style-type: none;
+}
+.nav-horizontal{
+    display: flex;
+    li{
+        margin-inline: 0.5rem;
+    }
+}
+.nav-link{
+    text-decoration: none;
+    color: #CE504B;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.main-section{
+
+}
+.rounded-4{
+    border-radius: 4rem;
+}
+.rounded-full{
+    border-radius: 100%;
 }
