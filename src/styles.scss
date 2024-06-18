@@ -7,9 +7,6 @@ html{
     background-color: #04001c;
     background-size: cover;
 }
-header img{
-    filter: drop-shadow(1px 1px 1px #ffffff);
-}
 body{
     margin: 0;
 }
@@ -27,6 +24,7 @@ header{
 }
 .ul-control{
     list-style-type: none;
+    padding: 0;
 }
 .nav-horizontal{
     display: flex;
@@ -79,4 +77,27 @@ header{
     filter: drop-shadow(5px 10px 4px #CE504B) drop-shadow(-5px -10px 4px #3190FF);
     padding: 1rem;
     padding-left: 3rem;
+}
+
+@media (orientation: portrait) {
+    header{
+        div{
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        display: flex;
+        justify-content: center;
+    }
+    .main-section{
+        flex-direction: column;
+        div{
+            img{
+                max-width: 80vw;
+            }
+        }
+    }
 }
